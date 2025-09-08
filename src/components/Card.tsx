@@ -46,6 +46,7 @@ const Card: React.FC = () => {
               </div>
             </fieldset>
           </div>
+         
           <SubmitButton
             submitText="submit"
             score={score}
