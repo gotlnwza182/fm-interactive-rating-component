@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  --font-overpass: "Overpass", sans-serif;
+
+  --color-grey-500: #969fad;
+  --color-grey-900: #262e38;
+  --color-grey-950: #131518;
+
+  --color-orange-500: #fc7614;
+
+  --gradient-1: linear-gradient(to right, #232a34, #181e27);
+}
+
+@utility text-preset-1 {
+  font-family: var(--font-overpass);
+  font-size: 28px;
+  line-height: 35px;
+  font-weight: 700;
+}
+@utility text-preset-2 {
+  font-family: var(--font-overpass);
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+@utility text-preset-3 {
+  font-family: var(--font-overpass);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+@utility text-preset-4 {
+  font-family: var(--font-overpass);
+  font-size: 15px;
+  line-height: 24px;
+}
+@utility text-preset-4-bold {
+  font-family: var(--font-overpass);
+  font-size: 15px;
+  line-height: 19px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+@utility text-preset-5 {
+  font-family: var(--font-overpass);
+  font-size: 14px;
+  line-height: 22px;
+}
+@utility text-preset-5-semiBold {
+  font-family: var(--font-overpass);
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+  letter-spacing: 0.17px;
+}
+@utility text-preset-5-bold {
+  font-family: var(--font-overpass);
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 700;
+  letter-spacing: 1.87px;
+}
+
+@utility bg-gradient-1 {
+  background: var(--gradient-1);
+}
