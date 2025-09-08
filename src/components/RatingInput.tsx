@@ -43,7 +43,7 @@ const RatingInput = ({
         role="radio"
         aria-label={`Rate ${value} out of 5`}
         required
-        className="sr-only focus-within:outline-2 focus-within:outline-orange-500"
+        className="sr-only focus:outline-2 focus:outline-orange-500"
       />
       {value}
     </label>
