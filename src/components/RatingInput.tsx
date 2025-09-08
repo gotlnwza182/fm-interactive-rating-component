@@ -30,7 +30,7 @@ const RatingInput = ({
     }
   };
   return (
-    <label className="w-10 h-10 rounded-full bg-grey-900 flex items-center justify-center text-preset-5-bold text-grey-500 md:w-[51px] md:h-[51px] md:text-preset-3 hover:bg-white hover:text-grey-900 hover:cursor-pointer has-[:checked]:bg-orange-500 has-[:checked]:text-grey-900">
+    <label className="w-10 h-10 rounded-full bg-grey-900 flex items-center justify-center text-preset-5-bold text-grey-500 md:w-[51px] md:h-[51px] md:text-preset-3 hover:bg-white hover:text-grey-900 hover:cursor-pointer has-[:checked]:bg-orange-500 has-[:checked]:text-grey-900 focus-within:outline-2 focus-within:outline-orange-500 ">
       <input
         type="radio"
         name={name}
@@ -43,7 +43,7 @@ const RatingInput = ({
         role="radio"
         aria-label={`Rate ${value} out of 5`}
         required
-        className="sr-only"
+        className="sr-only focus-within:outline-2 focus-within:outline-orange-500"
       />
       {value}
     </label>

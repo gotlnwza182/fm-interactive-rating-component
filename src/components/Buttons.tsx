@@ -21,7 +21,7 @@ export const SubmitButton = ({
       </p>
       <button
         onClick={handleSubmit}
-        disabled={score === null}
+        disabled={score === null ? true : false}
         aria-disabled={score === null}
         aria-describedby="submit-explanation"
         aria-label="Submit your rating"
