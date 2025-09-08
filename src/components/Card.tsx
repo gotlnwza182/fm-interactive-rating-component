@@ -9,8 +9,7 @@ const Card: React.FC = () => {
 
   return (
     <main
-      role="form"
-      aria-labelledby="rating-card"
+      aria-labelledby="rating-title"
       className="max-w-81.75 max-h-90 bg-gradient-1 text-white p-6  rounded-[15px] md:max-w-103 md:max-h-104"
     >
       {!isSubmit ? (
